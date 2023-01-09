@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <section id="signInPage" class="vh-100 Home ">
+        
+        <div class="container">
+            <div class="content text-center m-auto py-5 ps-5 pe-5">
+                <h2 class="pb-3">Smart Login System</h2>
+                <div class="inputs">
+                    <input id="input4" class="form-control my-2 mb-3 " type=" text" placeholder="Enter Your Email"/>
+                    <input id="input5" class="form-control my-2 " type="password" placeholder="Enter Your Password" />
+                    
+                    <div class="test3 d-none">
+                        <p class="text-white">This email does not exist before. <a href="signUp.html"> Need to sigup.. </a> </p>
+                    </div>
+
+                    <button onclick="checkData()" class="mt-5 form-control mb-3"><a class="text-decoration-none " href="">Login</a></button>
+                </div>
+                <span class="mt-5 text-white">don't have an account? <a class="text-decoration-none" href="signUp.html">Sign Up</a></span>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
